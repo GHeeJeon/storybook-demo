@@ -1,0 +1,24 @@
+{
+  "name": "storybook-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@storybook/addon-docs": "9.1.0",
+    "@storybook/addon-onboarding": "9.1.0",
+    "@storybook/addon-webpack5-compiler-swc": "3.0.0",
+    "@storybook/react-webpack5": "9.1.0",
+    "@types/react": "^19.1.9",
+    "@types/react-dom": "^19.1.7",
+    "storybook": "9.1.0",
+    "typescript": "^5.9.2"
+  },
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  }
+}
